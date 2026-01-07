@@ -7,7 +7,7 @@ disableKinds:
 - taxonomy
 - taxonomyTerm
 params:
-  product_key: kubeobj
+  product_key: virtualsecrets
   main_menu_dropdown_item: database
   domain_appscode: https://appscode-v3-hugo.web.app
   domain_bytebuilders: https://appscode.com
@@ -24,6 +24,7 @@ params:
   domain_marketplace: https://marketplace.appscode.com
   domain_pharmer: https://pharmer-v1-hugo.web.app
   domain_stash: https://stashed-v1-hugo.web.app
+  domain_virtualsecrets: https://virtual-secrets.dev
   domain_voyagermesh: https://voyagermesh-v1-hugo.web.app
   search_api_key: ee310e417cda9ef6db0e642af12875611bd6e7ad69fb08c80dbd8cef72d68ba4
   blog_url: https://appscode.com/blog

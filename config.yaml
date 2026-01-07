@@ -1,5 +1,5 @@
 title: Kubernetes-Native Object Storage for the Modern Cloud
-baseurl: https://kubeobj.com
+baseurl: https://virtual-secrets.dev
 languageCode: en-us
 assetDir: static
 googleAnalytics: UA-62096468-4
@@ -8,7 +8,7 @@ disableKinds:
 - taxonomyTerm
 theme: hugo-product-theme
 params:
-  product_key: kubeobj
+  product_key: virtualsecrets
   primary_color: 8C32B7
   appscode_notification_show: true
   main_menu_dropdown_item: addons
@@ -27,6 +27,7 @@ params:
   domain_marketplace: https://marketplace.appscode.com
   domain_pharmer: https://pharmer.dev
   domain_stash: https://stash.run
+  domain_virtualsecrets: https://virtual-secrets.dev
   domain_voyagermesh: https://voyagermesh.com
   search_api_key: ee310e417cda9ef6db0e642af12875611bd6e7ad69fb08c80dbd8cef72d68ba4
   blog_url: https://appscode.com/blog
