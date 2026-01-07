@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "prod": "appscode-domains",
+    "default": "appscode-domains"
+  },
+  "targets": {
+    "kubedb-new-e7965": {
+      "hosting": {
+        "hugo": [
+          "virtual-secrets"
+        ]
+      }
+    },
+    "appscode-domains": {
+      "hosting": {
+        "hugo": [
+          "virtual-secrets"
+        ]
+      }
+    }
+  }
+}

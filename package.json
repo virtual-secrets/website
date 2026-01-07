@@ -1,0 +1,28 @@
+{
+  "name": "kubeobj-web",
+  "version": "0.2.0",
+  "description": "KubeStash Website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubeobj/website.git"
+  },
+  "author": "AppsCode Inc. <kubeobj-dev@appscode.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kubeobj/project/issues"
+  },
+  "homepage": "https://github.com/kubeobj/website#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "autoprefixer": "^9.8.8",
+    "postcss-cli": "^9.1.0"
+  },
+  "private": true,
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "postcss": "^8.4.13"
+  }
+}

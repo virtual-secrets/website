@@ -1,0 +1,68 @@
+title: Kubernetes-Native Object Storage for the Modern Cloud
+baseurl: https://kubeobj.com
+languageCode: en-us
+assetDir: static
+googleAnalytics: UA-62096468-4
+disableKinds:
+- taxonomy
+- taxonomyTerm
+theme: hugo-product-theme
+params:
+  product_key: kubeobj
+  primary_color: 8C32B7
+  appscode_notification_show: true
+  main_menu_dropdown_item: addons
+  domain_appscode: https://appscode.com
+  domain_bytebuilders: https://appscode.com
+  domain_configsyncer: https://config-syncer.com
+  domain_gateway: https://gateway.voyagermesh.com
+  domain_guard: https://kubeguard.dev
+  domain_kubeci: https://kube.ci
+  domain_kubedb: https://kubedb.com
+  domain_kubeform: https://kubeform.com
+  domain_kubeobj: https://kubeobj.com
+  domain_kubeshield: https://kubeshield.com
+  domain_kubestash: https://kubestash.com
+  domain_kubevault: https://kubevault.com
+  domain_marketplace: https://marketplace.appscode.com
+  domain_pharmer: https://pharmer.dev
+  domain_stash: https://stash.run
+  domain_voyagermesh: https://voyagermesh.com
+  search_api_key: ee310e417cda9ef6db0e642af12875611bd6e7ad69fb08c80dbd8cef72d68ba4
+  blog_url: https://appscode.com/blog
+  slack_url: https://slack.appscode.com
+  github_url: https://github.com/appscode
+  twitter_url: https://x.com/AppsCodeHQ
+  facebook_url: https://www.facebook.com/appscode
+  youtube_url: https://www.youtube.com/c/AppsCodeInc
+  contact_email: support@appscode.com
+  contact_phone: +1(650)241-8486
+  intro_video:
+    url: https://www.youtube.com/watch?v=hXwnjIGgvMg
+    thumbnail: https://img.youtube.com/vi/hXwnjIGgvMg/sddefault.jpg
+  comments:
+    enable: true
+    giscus:
+      repo: bytebuilders/community
+      repoId: R_kgDOG-h6rw
+      category: Stash
+      categoryId: DIC_kwDOG-h6r84COCFw
+      map: title
+  docs_url: https://appscode.com/docs
+  learn_url: https://appscode.com/learn
+menu:
+  main:
+  - name: Documentation
+    weight: 20
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: manni
+outputs:
+  home:
+  - HTML
+  - JSON
+build:
+  writeStats: true

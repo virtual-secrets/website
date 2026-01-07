@@ -1,0 +1,75 @@
+{
+  "100-fortune": {
+    "name": "100 Fortune",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/100-fortune.png",
+    "show": true
+  },
+  "nokia": {
+    "name": "NOKIA",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/nokia.png",
+    "show": true
+  },
+  "greenhouse": {
+    "name": "greenhouse",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/greenhouse.png",
+    "show": true
+  },
+  "orange": {
+    "name": "Orange",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/orange.png",
+    "show": true
+  },
+  "umd": {
+    "name": "University of Maryland",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/umd.png",
+    "show": true
+  },
+  "bank-al-etihad": {
+    "name": "Bank al Etihad",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/bank-al-etihad.png",
+    "show": true
+  },
+  "emerson": {
+    "name": "Emerson",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/emerson.png",
+    "show": true
+  },
+  "oak-ridge": {
+    "name": "OAK RIDGE",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/oak-ridge.png",
+    "show": true
+  },
+  "enterprise-products-partners": {
+    "name": "Enterprise Products Partners L.P.",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/enterprise-products-partners.png",
+    "show": true
+  },
+  "asurion": {
+    "name": "asurion",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/asurion.png",
+    "show": true
+  },
+
+  "huma": {
+    "name": "HUMA",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/huma.png",
+    "show": true
+  },
+  "course-hero": {
+    "name": "Course Hero",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/course-hero.png",
+    "show": true
+  }
+}

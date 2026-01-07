@@ -1,0 +1,137 @@
+title: Backup your Kubernetes Stateful Applications
+baseurl: https://stashed-v1-hugo.web.app
+languageCode: en-us
+assetDir: static
+googleAnalytics: UA-62096468-4
+disableKinds:
+- taxonomy
+- taxonomyTerm
+params:
+  product_key: kubeobj
+  main_menu_dropdown_item: database
+  domain_appscode: https://appscode-v3-hugo.web.app
+  domain_bytebuilders: https://appscode.com
+  domain_configsyncer: https://config-syncer.com
+  domain_gateway: https://gateway.voyagermesh.com
+  domain_guard: https://kubeguard.dev
+  domain_kubeci: https://kubeci-v1-hugo.web.app
+  domain_kubedb: https://kubedb-v2-hugo.web.app
+  domain_kubeform: https://kubeform-v1-hugo.web.app
+  domain_kubeobj: https://kubeobj-qa.web.app
+  domain_kubeshield: https://kubeshield-v1-hugo.web.app
+  domain_kubestash: https://kubestash.com
+  domain_kubevault: https://kubevault-v1-hugo.web.app
+  domain_marketplace: https://marketplace.appscode.com
+  domain_pharmer: https://pharmer-v1-hugo.web.app
+  domain_stash: https://stashed-v1-hugo.web.app
+  domain_voyagermesh: https://voyagermesh-v1-hugo.web.app
+  search_api_key: ee310e417cda9ef6db0e642af12875611bd6e7ad69fb08c80dbd8cef72d68ba4
+  blog_url: https://appscode.com/blog
+  slack_url: https://slack.appscode.com
+  github_url: https://github.com/appscode
+  twitter_url: https://x.com/AppsCodeHQ
+  facebook_url: https://www.facebook.com/appscode
+  youtube_url: https://www.youtube.com/c/AppsCodeInc
+  contact_email: support@appscode.com
+  contact_phone: +1(650)241-8486
+  learn_url: https://appscode.com/learn
+  docs_url: https://appscode.com/docs
+menu:
+  main:
+  - name: Documentation
+    weight: 20
+  - name: Community
+    identifier: community
+    weight: 25
+  - name: GitHub
+    identifier: github
+    parent: community
+    url: https://github.com/stashed
+    weight: 1
+  - name: Twitter
+    identifier: twitter
+    parent: community
+    url: https://twitter.com/KubeStash
+    weight: 2
+  - name: Slack
+    identifier: slack
+    parent: community
+    url: https://slack.appscode.com
+    weight: 3
+menu:
+  main:
+  - name: Addons
+    identifier: addons
+    weight: 15
+  - name: Documentation
+    weight: 20
+  - name: Elasticsearch
+    identifier: elasticsearch
+    parent: addons
+    weight: 10
+    pre: /assets/images/addons/logos/elasticsearch.svg
+    pageRef: /addons/databases/backup-and-restore-elasticsearch-on-kubernetes/
+  - name: MariaDB
+    identifier: mariadb
+    parent: addons
+    weight: 20
+    pre: /assets/images/addons/logos/mariadbs.svg
+    pageRef: /addons/databases/backup-and-restore-mariadb-on-kubernetes/
+  - name: MongoDB
+    identifier: mongodb
+    parent: addons
+    weight: 40
+    pre: /assets/images/addons/logos/mongodb.svg
+    pageRef: /addons/databases/backup-and-restore-mongodb-on-kubernetes/
+  - name: MySQL
+    identifier: mysql
+    parent: addons
+    weight: 50
+    pre: /assets/images/addons/logos/mysql.svg
+    pageRef: /addons/databases/backup-and-restore-mysql-on-kubernetes/
+  - name: Percona XtraDB
+    identifier: percona-xtradb
+    parent: addons
+    weight: 60
+    pre: /assets/images/addons/logos/perconaxtradbs.svg
+    pageRef: /addons/databases/backup-and-restore-percona-xtradb-on-kubernetes/
+  - name: PostgreSQL
+    identifier: postgres
+    parent: addons
+    weight: 80
+    pre: /assets/images/addons/logos/postgres.svg
+    pageRef: /addons/databases/backup-and-restore-postgres-on-kubernetes/
+  - name: Redis
+    identifier: redis
+    parent: addons
+    weight: 100
+    pre: /assets/images/addons/logos/redis.svg
+    pageRef: /addons/databases/backup-and-restore-redis-on-kubernetes/
+  - name: NATS
+    identifier: nats
+    parent: addons
+    weight: 100
+    pre: /assets/images/addons/logos/nats.svg
+    pageRef: /addons/message-queue/backup-and-restore-nats-on-kubernetes/
+  - name: Etcd
+    identifier: etcd
+    parent: addons
+    weight: 100
+    pre: /assets/images/addons/logos/etcd.svg
+    pageRef: /addons/databases/backup-and-restore-etcd-on-kubernetes/
+  - name: KubeDump
+    identifier: kubedump
+    parent: addons
+    weight: 110
+    pre: /assets/images/addons/logos/kubedump.svg
+    pageRef: /addons/kubernetes/backup-kubernetes-resources/
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: manni
+outputs:
+  home:
+  - HTML
+  - JSON
