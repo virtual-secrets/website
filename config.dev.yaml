@@ -1,5 +1,5 @@
-title: Backup your Kubernetes Stateful Applications
-baseurl: https://stashed-v1-hugo.web.app
+title: Virtual Secrets by AppsCode
+baseurl: https://virtual-secrets.dev
 languageCode: en-us
 assetDir: static
 googleAnalytics: UA-62096468-4
@@ -7,7 +7,7 @@ disableKinds:
 - taxonomy
 - taxonomyTerm
 params:
-  product_key: kubeobj
+  product_key: virtualsecrets
   main_menu_dropdown_item: database
   domain_appscode: https://appscode-v3-hugo.web.app
   domain_bytebuilders: https://appscode.com

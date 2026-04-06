@@ -2,6 +2,7 @@
   "htmlElements": {
     "tags": [
       "a",
+      "article",
       "blockquote",
       "body",
       "button",
@@ -232,7 +233,6 @@
       "is-warning",
       "is-white",
       "item",
-      "kubeobj",
       "left-content",
       "left-sidebar-wrapper",
       "link",
@@ -244,6 +244,8 @@
       "mb-8",
       "mega-menu-inner",
       "mega-menu-wrapper",
+      "message",
+      "message-body",
       "minimize",
       "ml-15",
       "ml-70",
@@ -321,6 +323,7 @@
       "ui-ss",
       "user-info",
       "user-info-wrapper",
+      "virtualsecrets",
       "whats-new",
       "width-16",
       "width-20",
